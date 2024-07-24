@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func Leftpad(text string, pad_length int,pad_letter) {
+func Leftpad(text string, pad_length int,pad_letter) string {
 	const text_size int = len(text)
 	const pad_size int = len(pad_length)
 	const text_pad_diff int = text_size - pad_size
